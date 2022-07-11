@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        VANTA.BIRDS({
+          el: "#vanta",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          color1: 622325,
+          quantity: 2.00,
+          backgroundAlpha: 0.0,
+        });
+      });
+    </script>
+    <title>Nestor Macedo - Links</title>
+  </head>
+  <body>
+    <div id="vanta"></div>
+    <main>
+      <header>
+        <img src="assets/coolcat.jpeg" alt="" />
+        <h1>@nestoned</h1>
+      </header>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="assets/homepage.svg" alt="homepage" width="20" />
+            Site
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="assets/instagram.svg" alt="instagram" width="20" />
+            Instagram</a
+          >
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="assets/twitter.svg" alt="Twitter" width="20" />
+            Twitter
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="assets/github.svg" alt="Github" width="20" />
+            Github
+          </a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
